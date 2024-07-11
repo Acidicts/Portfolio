@@ -1,0 +1,37 @@
+
+.comfortaa {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Comfortaa';
+  background-color: aqua;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(104, 233, 240);
+  color: transparent;
+  padding: 10px 20px;
+}
+
+.options {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #0074D9;
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.options:hover {
+  box-shadow: 0px 0px 5px navy;
+}
