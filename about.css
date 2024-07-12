@@ -30,6 +30,7 @@
   }
   
   a {
+    transition: 1s;
     text-decoration: none;
     color: navy;
   }

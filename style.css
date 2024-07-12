@@ -55,6 +55,7 @@ a {
 }
 
 .options {
+  transition: 1s;
   text-decoration: none;
   padding: 10px 20px;
   background-color: #0074D9;
@@ -103,4 +104,23 @@ a {
 .project:hover {
   transition: 1s;
   color: yellow;
+}
+
+.email-btn {
+    padding: 10px 20px;
+    background-color: #0074D9;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.email {
+    margin: auto;
+    align-self: center;
+    background-color: rgb(41, 197, 153);
+    border-radius: 50px;
+    height: 100px;
+    width: 500px;
 }
